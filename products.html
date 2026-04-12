@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Products - Radiant Print</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body { font-family: 'DM Sans', sans-serif; }
+h1,h2,h3 { font-family: 'Manrope', sans-serif; }
+
+.nav-link { position: relative; }
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #f97316;
+    transition: 0.3s;
+}
+.nav-link:hover::after { width: 100%; }
+.nav-link.active::after { width: 100%; }
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="fixed top-0 left-0 right-0 bg-slate-900/90 backdrop-blur z-50">
+<div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
+
+<a href="index.html" class="text-white">
+<h1 class="text-xl font-bold">Radiant Print</h1>
+<p class="text-xs text-slate-300">Packaging Solutions</p>
+</a>
+
+<nav class="hidden lg:flex gap-8 text-white">
+<a href="index.html" class="nav-link">Home</a>
+<a href="about.html" class="nav-link">About</a>
+<a href="services.html" class="nav-link">Services</a>
+<a href="products.html" class="nav-link active text-orange-400">Products</a>
+<a href="contact.html" class="nav-link">Contact</a>
+</nav>
+
+<button id="mobile-menu-btn" class="lg:hidden text-white text-2xl">☰</button>
+
+</div>
+
+<div id="mobile-nav" class="hidden bg-slate-900 text-white px-6 pb-4">
+<a href="index.html" class="block py-2">Home</a>
+<a href="about.html" class="block py-2">About</a>
+<a href="services.html" class="block py-2">Services</a>
+<a href="products.html" class="block py-2 text-orange-400">Products</a>
+<a href="contact.html" class="block py-2">Contact</a>
+</div>
+</header>
+
+<main class="pt-20">
+
+<!-- HERO -->
+<section class="relative py-28 text-white">
+
+<div class="absolute inset-0">
+<img src="products.png"
+class="w-full h-full object-cover">
+</div>
+
+<div class="absolute inset-0 bg-slate-900/80"></div>
+
+<div class="relative max-w-7xl mx-auto px-6">
+<h1 class="text-4xl md:text-5xl font-bold">
+Premium Printing Products
+</h1>
+<p class="mt-6 text-slate-300 max-w-2xl">
+Explore our range of high-quality printing and packaging products designed for modern businesses.
+</p>
+</div>
+
+</section>
+
+<!-- PRODUCTS -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<!-- CARD 1 -->
+<div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+
+<div class="relative h-48 overflow-hidden group">
+
+<div class="slider flex w-full h-full transition-transform duration-300">
+<img src="label1.png" class="w-full h-48 object-cover shrink-0">
+<img src="label2.png" class="w-full h-48 object-contain shrink-0">
+<img src="label3.png" class="w-full h-48 object-contain shrink-0">
+<img src="label4.png" class="w-full h-48 object-contain shrink-0">
+<img src="label5.png" class="w-full h-48 object-contain shrink-0">
+</div>
+
+<button class="prevBtn absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">‹</button>
+<button class="nextBtn absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">›</button>
+
+</div>
+
+<div class="p-5">
+<h3 class="text-xl font-bold mb-2">Product Lables</h3>
+<p class="text-slate-600 text-sm mb-3">High-quality adhesive labels and stickers for product branding and identification.</p>
+<!-- <p class="text-orange-500 font-semibold">₹4 / piece</p> -->
+</div>
+</div>
+
+<!-- CARD 2 -->
+<div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+
+<div class="relative h-48 overflow-hidden group">
+
+<div class="slider flex w-full h-full transition-transform duration-300">
+<img src="packbox1.png" class="w-full h-48 object-cover shrink-0">
+<img src="packbox2.png" class="w-full h-48 object-contain shrink-0">
+<img src="packbox4.png" class="w-full h-48 object-contain shrink-0">
+<img src="boxn1.png" class="w-full h-48 object-contain shrink-0">
+<img src="boxn2.png" class="w-full h-48 object-contain shrink-0">
+<img src="boxn3.png" class="w-full h-48 object-contain shrink-0">
+<img src="boxn4.png" class="w-full h-48 object-contain shrink-0">
+</div>
+
+<button class="prevBtn absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">‹</button>
+<button class="nextBtn absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">›</button>
+
+</div>
+
+<div class="p-5">
+<h3 class="text-xl font-bold mb-2">Packaging Boxes</h3>
+<p class="text-slate-600 text-sm mb-3">Custom printed boxes for retail packaging and product presentation.</p>
+<!-- <p class="text-orange-500 font-semibold">₹120 / box</p> -->
+</div>
+</div>
+
+<!-- CARD 3 -->
+<div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+
+<div class="relative h-48 overflow-hidden group">
+
+<div class="slider flex w-full h-full transition-transform duration-300">
+<img src="brochure3.png" class="w-full h-48 object-cover shrink-0">
+<img src="brochure2.png" class="w-full h-48 object-contain shrink-0">
+<img src="brochers1.jpg" class="w-full h-48 object-contain shrink-0">
+<img src="brochern1.png" class="w-full h-48 object-contain shrink-0">
+<img src="brochern7.png" class="w-full h-48 object-contain shrink-0">
+<img src="brochuren8.png" class="w-full h-48 object-contain shrink-0">
+
+</div>
+
+<button class="prevBtn absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">‹</button>
+<button class="nextBtn absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">›</button>
+
+</div>
+
+<div class="p-5">
+<h3 class="text-xl font-bold mb-2">Brochures & Flyers</h3>
+<p class="text-slate-600 text-sm mb-3">Professional marketing materials for business promotion and advertising.</p>
+<!-- <p class="text-orange-500 font-semibold">₹5 / unit</p> -->
+</div>
+</div>
+
+<!-- CARD 4 -->
+<div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+
+<div class="relative h-48 overflow-hidden group">
+
+<div class="slider flex w-full h-full transition-transform duration-300">
+<img src="card2.png" class="w-full h-full object-cover shrink-0">
+<!-- <img src="card1.PNG" class="w-full h-full object-cover shrink-0"> -->
+<img src="card3.png" class="w-full h-full object-cover shrink-0">
+</div>
+
+<button class="prevBtn absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">‹</button>
+<button class="nextBtn absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">›</button>
+
+</div>
+
+<div class="p-5">
+<h3 class="text-xl font-bold mb-2">Business Cards</h3>
+<p class="text-slate-600 text-sm mb-3">Premium & Customized business cards that make a lasting professional impression.</p>
+<!-- <p class="text-orange-500 font-semibold">₹300 / 100</p> -->
+</div>
+</div>
+
+<!-- CARD 5 -->
+<div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+
+<div class="relative h-48 overflow-hidden group">
+
+<div class="slider flex w-full h-full transition-transform duration-300">
+<img src="banner1.png" class="w-full h-full object-cover shrink-0">
+<img src="banner2.png" class="w-full h-full object-contain shrink-0">
+<img src="banner4.png" class="w-full h-full object-cover shrink-0">
+</div>
+
+<button class="prevBtn absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">‹</button>
+<button class="nextBtn absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">›</button>
+
+</div>
+
+<div class="p-5">
+<h3 class="text-xl font-bold mb-2">Posters & Banners</h3>
+<p class="text-slate-600 text-sm mb-3">Large format printing for events, promotions, and advertising campaigns.</p>
+<!-- <p class="text-orange-500 font-semibold">₹50 / sq ft</p> -->
+</div>
+</div>
+
+<!-- CARD 6 -->
+<div class="border rounded-xl overflow-hidden hover:shadow-lg transition">
+
+<div class="relative h-48 overflow-hidden group">
+
+<div class="slider flex w-full h-full transition-transform duration-300">
+<img src="custom1.png" class="w-full h-full object-cover shrink-0">
+<img src="custom2.png" class="w-full h-full object-cover shrink-0">
+<img src="custom.png" class="w-full h-full object-cover shrink-0">
+</div>
+
+<button class="prevBtn absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">‹</button>
+<button class="nextBtn absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white w-8 h-8 rounded-full opacity-0 group-hover:opacity-100 transition">›</button>
+
+</div>
+
+<div class="p-5">
+<h3 class="text-xl font-bold mb-2">Eco Friendly - Custom Packaging</h3>
+<p class="text-slate-600 text-sm mb-3">Tailored packaging solutions designed specifically for your products.</p>
+<!-- <p class="text-orange-500 font-semibold">Custom Quote</p> -->
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+</main>
+
+<footer class="bg-slate-900 text-white py-4 text-center">
+© 2026 Radiant Print
+</footer>
+
+<!-- MOBILE MENU -->
+<script>
+const btn = document.getElementById("mobile-menu-btn");
+const nav = document.getElementById("mobile-nav");
+
+btn.addEventListener("click", () => {
+nav.classList.toggle("hidden");
+});
+
+document.querySelectorAll("#mobile-nav a").forEach(link => {
+link.addEventListener("click", () => {
+nav.classList.add("hidden");
+});
+});
+</script>
+
+<!-- SLIDER LOGIC -->
+<script>
+document.querySelectorAll(".slider").forEach(slider => {
+
+let index = 0;
+const total = slider.children.length;
+
+const parent = slider.parentElement;
+const prevBtn = parent.querySelector(".prevBtn");
+const nextBtn = parent.querySelector(".nextBtn");
+
+function update() {
+slider.style.transform = `translateX(-${index * 100}%)`;
+}
+
+prevBtn.addEventListener("click", () => {
+if (index > 0) {
+index--;
+update();
+}
+});
+
+nextBtn.addEventListener("click", () => {
+if (index < total - 1) {
+index++;
+update();
+}
+});
+
+});
+</script>
+
+</body>
+</html>

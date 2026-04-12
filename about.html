@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Us - Radiant Print - Professional Printing & Packaging Solutions</title>
+<meta name="description" content="Learn about Radiant Print's 15+ years of experience in professional printing and packaging solutions.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body { font-family: 'DM Sans', sans-serif; }
+h1,h2,h3 { font-family: 'Manrope', sans-serif; }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+main { padding-top: 80px; }
+
+/* Nav underline */
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #f97316;
+    transition: 0.3s;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+.nav-link.active::after {
+    width: 100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER (same as home) -->
+<header class="fixed top-0 left-0 right-0 bg-slate-900/90 backdrop-blur z-50">
+<div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
+
+<a href="index.html" class="text-white">
+    <h1 class="text-xl font-bold">Radiant Print</h1>
+    <p class="text-xs text-slate-300">Packaging Solutions</p>
+</a>
+
+<nav class="hidden lg:flex gap-8 text-white">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link active text-orange-400">About</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="products.html" class="nav-link">Products</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+</nav>
+<button id="menu-btn" class="lg:hidden text-white text-2xl">☰</button>
+
+</div>
+
+<!-- MOBILE MENU -->
+<div id="mobile-menu" class="hidden bg-slate-900 text-white px-6 pb-4">
+    <a href="index.html" class="block py-2">Home</a>
+    <a href="about.html" class="block py-2 text-orange-400">About</a>
+    <a href="services.html" class="block py-2">Services</a>
+    <a href="products.html" class="block py-2">Products</a>
+    <a href="contact.html" class="block py-2">Contact</a>
+</div>
+</header>
+
+
+
+<!-- MAIN -->
+<main>
+
+<!-- HERO -->
+<section class="relative py-32 bg-slate-900">
+
+<img src="about1.png" class="absolute inset-0 w-full h-full object-cover opacity-20">
+
+<div class="relative z-10 max-w-7xl mx-auto px-6">
+    <h1 class="text-5xl font-bold text-white">About Radiant Print</h1>
+    <p class="text-slate-300 mt-6 max-w-2xl">
+        A professional printing and packaging company dedicated to delivering
+        consistent quality and innovative solutions.
+    </p>
+</div>
+
+</section>
+
+<!-- WHO WE ARE -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+
+<div>
+<h2 class="text-3xl font-bold mb-6">Who We Are</h2>
+
+<p class="text-slate-600 mb-4">
+Radiant Print is a professional printing and packaging company dedicated to
+delivering consistent quality and innovative solutions. We combine modern
+machinery, experienced technicians, and creative designers to transform
+packaging into a powerful marketing tool.
+</p>
+
+<p class="text-slate-600 mb-6">
+Our mission is to support businesses with reliable printing solutions that
+enhance product visibility and brand value. With over 15 years of experience,
+we have served hundreds of clients across diverse industries.
+</p>
+
+<div class="grid grid-cols-2 gap-6">
+    <div class="bg-slate-50 p-6 rounded-xl">
+        <p class="text-3xl font-bold text-orange-500">500+</p>
+        <p class="text-sm text-slate-600">Satisfied Clients</p>
+    </div>
+    <div class="bg-slate-50 p-6 rounded-xl">
+        <p class="text-3xl font-bold text-orange-500">15+</p>
+        <p class="text-sm text-slate-600">Years Experience</p>
+    </div>
+</div>
+
+</div>
+
+<div class="grid grid-cols-2 gap-4">
+    <img src="about3.png" class="rounded-xl h-48 object-cover">
+    <img src="about4.png" class="rounded-xl h-48 object-cover">
+    <img src="about6.jpg" class="rounded-xl h-48 object-cover">
+    <img src="home1.png" class="rounded-xl h-48 object-cover">
+</div>
+
+</div>
+</section>
+
+<!-- VISION MISSION -->
+<section class="py-20 bg-slate-50">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8">
+
+<div class="bg-white p-8 rounded-xl shadow">
+<h3 class="text-2xl font-bold mb-4">Our Vision</h3>
+<p class="text-slate-600">
+To become a trusted printing partner for industries by providing high precision
+and dependable service. We aim to be the go-to solution for businesses seeking
+quality packaging that speaks to their brand identity.
+</p>
+</div>
+
+<div class="bg-slate-900 text-white p-8 rounded-xl">
+<h3 class="text-2xl font-bold mb-4">Our Mission</h3>
+<p class="text-slate-300">
+To support businesses with reliable printing solutions that enhance product
+visibility and brand value. We are committed to delivering excellence through
+innovation, quality, and customer-centric service.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- VALUES -->
+<section class="py-20 bg-white text-center">
+<h2 class="text-3xl font-bold mb-12">Our Core Values</h2>
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-6 px-6">
+
+    <!-- Quality -->
+    <div class="bg-slate-50 p-6 rounded-xl hover:shadow-lg transition">
+        <div class="w-14 h-14 mx-auto mb-4 bg-orange-100 rounded-xl flex items-center justify-center">
+            <svg class="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold">Quality</h3>
+    </div>
+
+    <!-- Commitment -->
+    <div class="bg-slate-50 p-6 rounded-xl hover:shadow-lg transition">
+        <div class="w-14 h-14 mx-auto mb-4 bg-orange-100 rounded-xl flex items-center justify-center">
+            <svg class="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                d="M12 8c-1.657 0-3 1.567-3 3.5S10.343 15 12 15s3-1.567 3-3.5S13.657 8 12 8z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                d="M19.4 15a7.97 7.97 0 01-14.8 0"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold">Commitment</h3>
+    </div>
+
+    <!-- Innovation -->
+    <div class="bg-slate-50 p-6 rounded-xl hover:shadow-lg transition">
+        <div class="w-14 h-14 mx-auto mb-4 bg-orange-100 rounded-xl flex items-center justify-center">
+            <svg class="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold">Innovation</h3>
+    </div>
+
+    <!-- Customer Satisfaction -->
+    <div class="bg-slate-50 p-6 rounded-xl hover:shadow-lg transition">
+        <div class="w-14 h-14 mx-auto mb-4 bg-orange-100 rounded-xl flex items-center justify-center">
+            <svg class="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                d="M14 9l-2 2-2-2m0 6h4m-6 4h8a2 2 0 002-2V7a2 2 0 00-2-2h-3l-1-1h-4l-1 1H6a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold">Customer Satisfaction</h3>
+    </div>
+
+</div>
+</section>
+
+<!-- TIMELINE / ROADMAP -->
+<section class="py-20 bg-slate-50">
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-center mb-16">Our Journey</h2>
+
+<div class="relative">
+
+<!-- vertical line -->
+<div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-slate-200 -translate-x-1/2"></div>
+
+<div class="space-y-12">
+
+<!-- 2009 -->
+<div class="relative md:grid md:grid-cols-2 md:gap-12 items-center">
+    
+    <div class="md:text-right md:pr-12">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-orange-500 font-bold text-lg">2009</p>
+            <h3 class="font-semibold mt-2">Our Area of Expertise Started</h3>
+            <p class="text-slate-600 text-sm mt-2">
+                Started with a vision to deliver quality printing solutions
+            </p>
+        </div>
+    </div>
+
+    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow"></div>
+
+</div>
+
+<!-- 2013 -->
+<div class="relative md:grid md:grid-cols-2 md:gap-12 items-center">
+    
+    <div class="md:col-start-2 md:pl-12">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-orange-500 font-bold text-lg">2013</p>
+            <h3 class="font-semibold mt-2">Expanded Operations</h3>
+            <p class="text-slate-600 text-sm mt-2">
+                Added flexo printing capabilities and grew team
+            </p>
+        </div>
+    </div>
+
+    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow"></div>
+
+</div>
+
+<!-- 2017 -->
+<div class="relative md:grid md:grid-cols-2 md:gap-12 items-center">
+    
+    <div class="md:text-right md:pr-12">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-orange-500 font-bold text-lg">2017</p>
+            <h3 class="font-semibold mt-2">Digital Integration</h3>
+            <p class="text-slate-600 text-sm mt-2">
+                Integrated digital printing technology for diverse needs
+            </p>
+        </div>
+    </div>
+
+    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow"></div>
+
+</div>
+
+<!-- 2021 -->
+<div class="relative md:grid md:grid-cols-2 md:gap-12 items-center">
+    
+    <div class="md:col-start-2 md:pl-12">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-orange-500 font-bold text-lg">2021</p>
+            <h3 class="font-semibold mt-2">Sustainability Focus</h3>
+            <p class="text-slate-600 text-sm mt-2">
+                Adopted eco-friendly materials and processes
+            </p>
+        </div>
+    </div>
+
+    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow"></div>
+
+</div>
+
+<!-- 2024 -->
+<div class="relative md:grid md:grid-cols-2 md:gap-12 items-center">
+    
+    <div class="md:text-right md:pr-12">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-orange-500 font-bold text-lg">2024</p>
+            <h3 class="font-semibold mt-2">Industry Leadership</h3>
+            <p class="text-slate-600 text-sm mt-2">
+                Recognized as a leading packaging solutions provider
+            </p>
+        </div>
+    </div>
+
+    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-white shadow"></div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- CTA -->
+<section class="py-5 bg-slate-900 text-center text-white">
+<h2 class="text-3xl font-bold">Ready to elevate your brand?</h2>
+
+<a href="contact.html" class="mt-4 inline-block bg-orange-500 px-4 py-2 rounded-full">
+Start Project
+</a>
+</section>
+
+</main>
+
+<footer class="bg-slate-900 text-white py-5 text-center">
+© 2026 Radiant Print
+</footer>
+
+</body>
+<script>
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("mobile-menu");
+
+btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+});
+</script>
+</html>

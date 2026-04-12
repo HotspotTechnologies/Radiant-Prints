@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Radiant Print & Packaging - Professional Solutions</title>
+<meta name="description" content="Radiant Print delivers high-quality packaging and label printing solutions.">
+
+<link rel="icon" href="favicon.ico">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body { font-family: 'DM Sans', sans-serif; }
+h1,h2,h3 { font-family: 'Manrope', sans-serif; }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+main { padding-top: 80px; }
+</style>
+<style>
+.nav-link {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: #F97316;
+    transition: width 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active (selected page) */
+.nav-link.active::after {
+    width: 100%;
+}
+
+.nav-link.active {
+    color: #F97316;
+}
+</style>
+</head>
+
+<body class="bg-white text-slate-900">
+
+<!-- HEADER -->
+<header class="fixed top-0 left-0 right-0 bg-slate-900/90 backdrop-blur z-50">
+<div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
+
+<a href="index.html" class="text-white">
+    <h1 class="text-xl font-bold">Radiant Print</h1>
+    <p class="text-xs text-slate-300">Packaging Solutions</p>
+</a>
+
+<nav class="hidden lg:flex gap-8 text-white">
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="products.html" class="nav-link">Products</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+</nav>
+
+
+
+<button id="menu-btn" class="lg:hidden text-white text-2xl">☰</button>
+</div>
+
+<div id="mobile-menu" class="hidden bg-slate-900 text-white px-6 pb-4">
+    <a href="index.html" class="block py-2 text-orange-400">Home</a>
+    <a href="about.html" class="block py-2">About</a>
+    <a href="services.html" class="block py-2">Services</a>
+    <a href="products.html" class="block py-2">Products</a>
+    <a href="contact.html" class="block py-2">Contact</a>
+</div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="relative min-h-screen flex items-center">
+
+<img src="about2.png"
+     class="absolute inset-0 w-full h-full object-cover">
+
+<div class="absolute inset-0 bg-black/70"></div>
+
+<div class="relative z-10 max-w-7xl mx-auto px-6 text-left">
+
+    <h1 class="text-5xl md:text-6xl font-extrabold text-white leading-tight">
+        Precision Printing.<br>
+        <span class="text-orange-500">Powerful Packaging.</span>
+    </h1>
+
+    <p class="text-slate-300 mt-6 max-w-xl">
+        High-quality printing solutions for modern brands.
+    </p>
+
+    <div class="mt-8 flex gap-4 flex-wrap">
+        <a href="contact.html" class="bg-orange-500 px-6 py-3 rounded-full text-white font-semibold">
+            Get Quote
+        </a>
+        <a href="services.html" class="border border-white px-6 py-3 rounded-full text-white">
+            Services
+        </a>
+    </div>
+
+    <!-- STATS -->
+    <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8 text-white">
+
+        <div>
+            <h3 class="text-3xl font-bold text-orange-500">15+</h3>
+            <p class="text-sm text-slate-300">Years Experience</p>
+        </div>
+
+        <div>
+            <h3 class="text-3xl font-bold text-orange-500">500+</h3>
+            <p class="text-sm text-slate-300">Happy Clients</p>
+        </div>
+
+        <div>
+            <h3 class="text-3xl font-bold text-orange-500">1M+</h3>
+            <p class="text-sm text-slate-300">Labels Printed</p>
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<!-- WHY US -->
+<section class="py-20 bg-white text-center">
+<h2 class="text-3xl font-bold mb-12">Why Choose Us</h2>
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
+
+<div class="bg-slate-50 p-6 rounded-xl shadow-sm">
+<h3 class="font-bold mb-2">Quality</h3>
+<p class="text-sm text-slate-600">
+100% Quality Assurance <br>
+Every print inspected for perfection
+</p>
+</div>
+
+<div class="bg-slate-50 p-6 rounded-xl shadow-sm">
+<h3 class="font-bold mb-2">Technology</h3>
+<p class="text-sm text-slate-600">
+Modern Printing Technology <br>
+Latest machinery & techniques
+</p>
+</div>
+
+<div class="bg-slate-50 p-6 rounded-xl shadow-sm">
+<h3 class="font-bold mb-2">Fast Delivery</h3>
+<p class="text-sm text-slate-600">
+Fast Turnaround Time <br>
+Quick delivery without compromise
+</p>
+</div>
+
+<div class="bg-slate-50 p-6 rounded-xl shadow-sm">
+<h3 class="font-bold mb-2">Custom Solutions</h3>
+<p class="text-sm text-slate-600">
+Custom Brand Solutions <br>
+Tailored to your brand identity
+</p>
+</div>
+
+<div class="bg-slate-50 p-6 rounded-xl shadow-sm">
+<h3 class="font-bold mb-2">Eco-friendly Materials</h3>
+<p class="text-sm text-slate-600">
+Sustainable packaging options
+</p>
+</div>
+
+<div class="bg-slate-50 p-6 rounded-xl shadow-sm">
+<h3 class="font-bold mb-2">Reliable Support</h3>
+<p class="text-sm text-slate-600">
+Dedicated customer support <br>
+We’re with you at every step
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-20 bg-slate-50">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
+
+<img src="home2.png" class="rounded-xl shadow-lg">
+
+<div>
+<h2 class="text-3xl font-bold mb-6">About Us</h2>
+
+<p class="text-slate-700 mb-4 font-semibold">
+Your Complete Printing & Packaging Partner
+</p>
+
+<p class="text-slate-600 mb-6 leading-relaxed">
+Radiant Print is a complete printing and packaging partner offering advanced printing technologies and creative brand solutions. From label printing to complete packaging production, we help businesses build a strong visual identity in the marketplace.
+</p>
+
+
+</div>
+
+</div>
+</section>
+
+<!-- CTA -->
+<section class="py-5 bg-slate-900 text-center text-white">
+<h2 class="text-3xl font-bold">Ready to elevate your brand?</h2>
+
+<a href="contact.html" class="mt-4 inline-block bg-orange-500 px-4 py-2 rounded-full">
+Start Project
+</a>
+</section>
+
+</main>
+
+<footer class="bg-slate-900 text-white py-5 text-center">
+© 2026 Radiant Print
+</footer>
+
+<script>
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("mobile-menu");
+
+btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+});
+</script>
+
+</body>
+</html>
