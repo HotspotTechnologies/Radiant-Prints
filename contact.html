@@ -7,6 +7,13 @@
 <title>Contact - Radiant Print</title>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="Radiant_logo.png">
+<link rel="apple-touch-icon" href="Radiant_logo.png">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <script src="https://cdn.tailwindcss.com"></script>
 
 <!-- EMAILJS -->
@@ -52,9 +59,12 @@ class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full fle
 <header class="fixed top-0 left-0 right-0 bg-slate-900/90 backdrop-blur z-50">
 <div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
 
-<a href="index.html" class="text-white">
-<h1 class="text-2xl font-extrabold">Radiant Prints</h1>
-<p class="text-xs text-slate-300">Designing & Printing Solution</p>
+<a href="index.html" class="text-white flex items-center gap-3">
+    <img src="Radiant_logo.png" alt="Radiant Prints Logo" class="h-9 w-auto object-contain">
+    <div>
+        <h1 class="text-xl md:text-2xl font-extrabold leading-tight">Radiant Prints</h1>
+        <p class="text-[10px] md:text-xs text-slate-300 tracking-wide">Designing & Printing Solution</p>
+    </div>
 </a>
 
 <nav class="hidden lg:flex gap-8 text-white">
@@ -105,12 +115,12 @@ We are here to support your desigining, printing & packaging needs
 <p class="font-semibold">Radiant Prints, Park Town Madurai - 17</p>
 </div>
 
-<div>
+<!-- <div>
 <p class="text-sm text-slate-500">Phone</p>
 <a href="tel:+919962340966" class="font-semibold text-orange-500">
 +91 99623 40966
 </a>
-</div>
+</div> -->
 
 <div>
 <p class="text-sm text-slate-500">Email</p>
@@ -139,6 +149,14 @@ class="bg-orange-500 text-white px-6 py-3 rounded-full">
 Call Now
 </a>
 
+<a href="https://www.instagram.com/radiant_prints_/"
+target="_blank"
+class="bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition duration-300">
+
+<i class="fab fa-instagram text-2xl"></i>
+
+</a>
+
 </div>
 
 </div>
@@ -162,16 +180,52 @@ class="w-full border p-3 rounded" required>
 class="w-full border p-3 rounded" required>
 
 <select name="service" class="w-full border p-3 rounded" required>
-<option value="">Select Service</option>
-<option>Flexo printing</option>
-<option>Custom packaging boxes</option>
-<option>Rep printing</option>
-<option>Paper bags</option>
-<option>Custom labels</option>
-<option>Offset printing</option>
-<option>Digital printing</option>
-<option>Others</option>
+
+    <option value="">Select Service</option>
+
+        <optgroup label="📦 Graphic Design">
+        <option>FMCG Product Design</option>
+        <option>Marketing materials Design</option>
+        <option>Brand Management</option>
+        <option>Mono Carton Box Creation</option>
+        <option>Event Design</option>
+    </optgroup>
+
+    <optgroup label="📦 Flexo Printing">
+        <option> Printed Thermal Roll</option>
+        <option>Adhesive Labels/Stickers</option>
+        <option>Standup Pouch/Flexible Bag</option>
+        <option>Plastic Bag</option>
+        <option>Rice Bag</option>
+        <option>Laundry Bag</option>
+        <option>Barcode Labels</option>
+        <option>Paper Bag</option>
+    </optgroup>
+
+    <optgroup label="📦 Offset Printing">
+        <option>Paper Bags</option>
+        <option>Mono Carton</option>
+        <option>Flyer</option>
+        <option>ID Card</option>
+        <option>Customize School Note Book</option>
+        <option>brochure</option>
+        <option>Phamlet</option>
+        <option>Restaurant Paper Table matte</option>
+    </optgroup>
+<optgroup label="📦 Digital Printing">
+        <option>Event water bottle label</option>
+        <option>Student Customize Note Book Sticker</option>
+        <option>T-shirt/Cup</option>
+        <option>Menu Cards</option>
+        <option>Flex Baner</option>
+        <option>Stande Banner</option>
+        <option>Flag Cloth Banner</option>
+        <option>Acrylic Printing</option>
+    </optgroup>
+
 </select>
+
+
 
 <textarea name="comments" placeholder="Comments"
 class="w-full border p-3 rounded h-24"></textarea>
